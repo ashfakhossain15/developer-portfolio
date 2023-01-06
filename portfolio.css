@@ -2,21 +2,28 @@
     font-size: 30px;
     font-weight: 750px;
 }
+.header{
+    background-color: aliceblue;
+    background-image: url('images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 60px 80px;
+    margin: 0px 80px 80px 20px;
+    
 }
 nav ul {
     display:flex;
+    align-items: center;
 }
 nav li {
     list-style: none;
     margin: 0px 27px;
     font-size: 20px;
-    top: 68px;
+    
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    line-height: 27px;
     left: 981px;
     
 }
@@ -29,5 +36,58 @@ nav li {
     top:50px;
     background-color: orange;
     color: white;
-    padding:10px:
+    padding:10px
+}
+.banner{
+    margin: 50px 70px;
+    display: flex;
+    gap: 30rem;
+    
+}
+.cv-button{
+    background-color: orange;
+     color: white;
+     font-size: 18px;
+     width: 400;
+     height: 200;
+     padding:15px;
+     border-radius:7px;
+     margin: 20px 50px 20px 70px;
+}
+.contact {
+    width: 150px ;
+    height:200 ;
+    padding :  15px;
+    margin-left : 20px ;
+    border-radius: 10px;
+    font-size: 18px; 
+    background-color:rgb(255, 255, 255);
+    border: 3px solid;
+    border-color: orange;
+
+}
+.main-section{
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 30px 400px; 
+    border: 3px solid aquamarine;
+    border-radius: 15px;
+   padding: 15px 40px 50px 40px;
+    
+
+}
+.description{font: 1em sans-serif;
+
+}
+.about-info-container{
+    display: flex;
+    
+}
+.info-title{
+    margin: 50px;
+    font-size: 20px;
+    color: rgb(98, 95, 95);
+}
+.info-description{
+    font-size:21px ;
 }
